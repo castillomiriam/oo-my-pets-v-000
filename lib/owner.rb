@@ -45,8 +45,8 @@ end
 end
 
 def feed_fish
-  pets[:fish].each do |fish|
-    fish.mood = "happy"
+  pets[:fishes].each do |fish|
+    fishes.mood = "happy"
 end
 end
 
