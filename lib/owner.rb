@@ -17,6 +17,10 @@ def self.all
 @@all
 end
 
+def self.count
+  @@all.size
+end
+
 def say_species
   "I am a #{self.species}."
 end
