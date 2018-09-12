@@ -56,6 +56,7 @@ def sell_pets
   pet.mood = "nervous"
 end
 end
+end
 
 def list_pets
 end
