@@ -13,7 +13,8 @@ def initialize(species)
   @@all << self
 end
 
-def self.all 
+def self.all
+@@all
 end
 
 def say_species
